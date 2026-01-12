@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule],   // *ngFor ke liye
+  imports: [CommonModule],  
   templateUrl: './app.html',
   styleUrls: ['./app.css']
 })
@@ -35,3 +35,4 @@ export class App implements OnInit {
       });
   }
 }
+
