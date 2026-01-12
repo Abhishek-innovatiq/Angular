@@ -1,0 +1,9 @@
+<div>
+  <h1>{{ title_name }}</h1>
+  <h2 [style.color]="color">{{ count() }}</h2>
+  <div class="btn-section">
+    <button (click)="decreament()">-</button>
+    <button class="reset" (click)="reset()">Reset</button>
+    <button (click)="increament()">+</button>
+  </div>
+</div>
