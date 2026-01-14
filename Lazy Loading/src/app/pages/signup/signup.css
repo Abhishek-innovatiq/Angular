@@ -1,0 +1,30 @@
+h2 {
+  margin-top: 20px;
+}
+
+form {
+  width: 320px;
+  padding: 15px;
+  border: 1px solid #ccc;
+
+}
+
+label {
+  font-weight: 600;
+}
+
+input {
+  width: 90%;
+  padding: 6px;
+  margin: 4px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
