@@ -1,0 +1,23 @@
+<h2> Animation </h2>
+
+<button (click)="toggleFade()">Toggle Fade</button>
+<div class="box green" [@fade]="isVisible ? 'show' : 'hide'">
+  Fade Animation
+</div>
+
+<hr>
+
+<button (click)="toggleCard()">Toggle Slide Card</button>
+<div *ngIf="showCard" class="box blue" @slide>
+  Slide Animation
+</div>
+
+<hr>
+
+<div class="box orange" *ngIf="showCard" @zoom>
+  Zoom Animation
+</div>
+
+<hr>
+
+

@@ -1,0 +1,27 @@
+.box {
+  width: 220px;
+  height: 90px;
+  margin: 15px 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.green { background: #4caf50; }
+.blue { background: #2196f3; }
+.orange { background: #ff9800; }
+
+ul {
+  margin-top: 10px;
+}
+
+li {
+  list-style: none;
+  background: #e0e0e0;
+  padding: 8px;
+  margin-bottom: 6px;
+  border-radius: 4px;
+}
