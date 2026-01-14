@@ -1,0 +1,13 @@
+<h1>Today Date: {{ today | date:'fullDate' }}</h1>
+
+<h1>{{ name | uppercase }}</h1>
+<h1>{{ name | lowercase }}</h1>
+<h1>{{ name | titlecase }}</h1>
+
+<h1>Price: {{ price | currency:'INR' }}</h1>
+
+<h1>Progress: {{ progress | percent }}</h1>
+
+<h1>{{ message | slice:0:9 }}</h1>
+
+<p style="font-size: 24px;">{{ user | json }}</p>
