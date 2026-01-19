@@ -13,12 +13,9 @@ type Priority = 'High' | 'Medium' | 'Low';
   styleUrl: './task-list.css'
 })
 export class TaskList {
-
-  // 👇 pehle declare karo
   tasks: any;
 
   constructor(private taskService: TaskService) {
-    // 👇 constructor ke andar initialize karo
     this.tasks = this.taskService.getTasks();
   }
 
@@ -37,3 +34,4 @@ export class TaskList {
     this.taskService.deleteTask(id);
   }
 }
+
